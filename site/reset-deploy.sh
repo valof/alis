@@ -6,9 +6,9 @@ mkdir deploy/
 
 cd deploy/
 git init -b gh-pages
-git remote add origin git@github.com:picodotdev/alis.git
-git config --local user.email "pico.dev@gmail.com"
-git config --local user.name "pico.dev"
+git remote add origin git@github.com:valof/alis.git
+git config --local user.email "valof@hotmail.com"
+git config --local user.name "valof"
 git config --local pull.ff only
 git checkout -b gh-pages
 cd ..
